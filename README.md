@@ -1,11 +1,9 @@
 # university-event
+##🚨
 <p style="color: red">
     This is a re-create repo from my previous project "Event Management". Because there's a error or maybe bug in the repository, I can't even cloning the repo to my local. So, I create this new repository.
 </p>
 
-<p style="color: red;">
-  This is a paragraph with red colored text.
-</p>
 
 **here you go:**
 I made this project to fulfill the miniproject 2 course from my college, feel free if you want to use as reference. If there is a question you can contact me.
