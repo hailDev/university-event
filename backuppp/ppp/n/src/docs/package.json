@@ -1,0 +1,48 @@
+{
+  "type": "module",
+  "scripts": {
+    "get-files": "node src/lib/scripts/get-files",
+    "dev": "npm run get-files && npm run createStyleHandlerComponent:dev && vite dev --port 3000 --open",
+    "build": "npm run createStyleHandlerComponent:prod && NODE_ENV=production vite build",
+    "preview": "npm run build && vite preview --port 3000 --open",
+    "createStyleHandlerComponent:dev": "echo '<script>import \"@components/StyleDevelopment.svelte\"</script>' > src/components/StyleHandler.svelte",
+    "createStyleHandlerComponent:prod": "echo '<script>import \"@components/StyleProduction.svelte\"</script>' > src/components/StyleHandler.svelte",
+    "prettier": "prettier --write '**/*.{js,svelte,md,json,html,css}' --config ../.prettierrc --ignore-path ../.prettierignore",
+    "langdiff": "node src/lib/scripts/compare-translate-files"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-static": "^2.0.2",
+    "@sveltejs/kit": "^1.18.0",
+    "@tailwindcss/typography": "0.5.9",
+    "autoprefixer": "10.4.14",
+    "json-diff": "^1.0.6",
+    "mdsvex": "^0.10.6",
+    "postcss": "8.4.23",
+    "postcss-nesting": "11.2.2",
+    "prettier": "2.8.8",
+    "prettier-plugin-svelte": "2.10.0",
+    "prettier-plugin-tailwindcss": "0.3.0",
+    "prism-themes": "1.9.0",
+    "rehype-autolink-headings": "^6.1.1",
+    "rehype-slug": "^5.1.0",
+    "svelte": "^3.59.1",
+    "svelte-preprocess": "^5.0.3",
+    "svelte-prism": "1.1.6",
+    "svelte-typeahead": "^4.4.1",
+    "tailwindcss": "^3.3.2",
+    "theme-change": "2.5.0"
+  },
+  "dependencies": {
+    "@svelte-put/inline-svg": "^2.0.0",
+    "@svelte-put/preprocess-inline-svg": "^2.1.1",
+    "colord": "^2.9.3",
+    "daisyui": "^3.0.10",
+    "dep-graph-count": "^1.0.0",
+    "emoji-unicode": "^2.0.1",
+    "lodash.debounce": "^4.0.8",
+    "nanoid": "^4.0.2",
+    "randomcolor": "^0.6.2",
+    "svelte-countup": "^0.2.6",
+    "svg-emojis": "^0.0.8"
+  }
+}
