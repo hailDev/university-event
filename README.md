@@ -3,6 +3,10 @@
     This is a re-create repo from my previous project "Event Management". Because there's a error or maybe bug in the repository, I can't even cloning the repo to my local. So, I create this new repository.
 </p>
 
+<p style="display: inline-block;">
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&color=1FF76C&size=20&center=true&vCenter=true&width=400&height=40&duration=3000&lines=This+is+a+paragraph+with+a+typing+effect!" alt="Typing Paragraph Text" />
+</p>
+
 
 
 **here you go:**
