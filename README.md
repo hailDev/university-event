@@ -4,7 +4,7 @@
 </p>
 
 <p style="display: inline-block;">
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&color=1FF76C&size=20&center=true&vCenter=true&width=400&height=40&duration=3000&lines=This+is+a+paragraph+with+a+typing+effect!" alt="Typing Paragraph Text" />
+  <img src="font=Righteous&color=1FF76C&size=20&center=true&vCenter=true&width=400&height=40&duration=3000&lines=This+is+a+paragraph+with+a+typing+effect!" alt="Typing Paragraph Text" />
 </p>
 
 
