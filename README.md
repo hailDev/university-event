@@ -12,5 +12,6 @@ note:
 1. On ".env" file you can change the email with yours as web email for verification requirement.
 2. Don't forget to install the node JS on this project, because i didn't put it in.
 3. You must have php 8 or higher installed in your operating system.
+4. Don't forget to left the star on the repository :)
 
 Thank You..
