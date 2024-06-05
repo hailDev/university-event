@@ -1,11 +1,9 @@
 # university-event
 <h1 align="center">
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&color=1FF76C&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=This is a re-create repo from my previous project Event Management.Because there's a error or maybe bug in the repository, I can't even cloning the repo to my local. So, I create this new repository." />
+    This is a re-create repo from my previous project Event Management.Because there's a error or maybe bug in the repository, I can't even cloning the repo to my local. So, I create this new repository.
 </h1>
 
-<h1 align="center">
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&color=1FF76C&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Welcome+👋;+Let's+explore+my+experiences+!" />
-</h1>
+
 
 **here you go:**
 I made this project to fulfill the miniproject 2 course from my college, feel free if you want to use as reference. If there is a question you can contact me.
